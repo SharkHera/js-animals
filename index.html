@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<input type="text" id="searchInput" placeholder="Recherche"> <button onclick="search_proxy()">🔍</button>
+
+<div id="app" class="container bootstrap snippet">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="main-box no-header clearfix">
+                <div class="main-box-body clearfix">
+                    <div class="table-responsive">
+                        <table class="table user-list">
+                            <thead>
+                                <tr>
+                                    <th><span>Animal</span></th>
+                                    <th><span>Numéro</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="line-template">
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var animals = [
+        "ant",
+        "anteater",
+        "antelope",
+        "ape",
+        "camel",
+        "caribou",
+        "cassowary",
+        "cat",
+        "caterpillar",
+        "cattle",
+        "chamois",
+        "cheetah",
+        "dinosaur",
+        "dog",
+        "dogfish",
+        "dolphin",
+        "donkey",
+        "dotterel",
+        "dove",
+        "eel",
+        "elephant",
+        "elk",
+        "emu",
+        "goldfinch",
+        "goldfish",
+        "gorilla",
+        "goshawk",
+        "grasshopper",
+        "grouse",
+        "guanaco",
+        "guinea-fowl",
+        "guinea-pig",
+        "hyena",
+        "locust",
+        "mongoose",
+        "oryx",
+        "pony",
+        "raccoon",
+        "rail",
+        "ram",
+        "rat",
+        "raven",
+        "red-deer",
+        "red-panda",
+        "spider",
+        "spoonbill",
+        "squid",
+        "squirrel",
+        "tiger"
+    ];
+</script>
+
+<script src="script.js"></script>
+<script src="context.js"></script>
+
+</body>
+</html>
